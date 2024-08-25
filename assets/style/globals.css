@@ -1,0 +1,192 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+blockquote,
+address,
+pre,
+code,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: none;
+}
+
+a {
+  color: #f0f0f0;
+}
+
+.nuxtbutton {
+  box-sizing: border-box;
+    border: 1px solid var(--text);
+    padding: 15px 34px;
+    transition: all 300ms;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    width: 49%;
+    text-align: center;
+} 
+  
+body {
+  font-family: var(--font-family);
+  background-color: #1a2125;
+  color: var(--text);
+  /* margin: 0 100px; */
+  font-weight: 400;
+  width: 100%;
+  max-width: 1920px;
+}
+.wrapper {
+  padding: 0 100px;
+}
+
+body.modal-open {
+  height: 100vh;
+  overflow-y: hidden;
+}
+button {
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--heading);
+}
+
+.subtitle {
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 60px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.mo-title {
+  font-size: 24px;
+}
+.mo-subtitle {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.filter-circle:hover circle {
+  fill: #c56f36;
+}
+.subscribe-section__social-icon:hover,
+.social-icon:hover,
+.social-icon:hover {
+  fill:  #c56f36;
+}
+ 
+.social-icon:hover path {
+  fill:  #fff;
+}
+img {
+  width: 100%;
+}
+@media screen and (min-width: 1280px) {
+  .mob {
+    display: none !important;
+  }
+
+  .br-mob {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mob1 {
+    display: none !important;
+  }
+}
+@media (max-width: 1700px) {
+  .wrapper {
+    padding: 0 45px;
+  }
+  /* body {
+    margin: 0 44px;
+  } */
+}
+
+@media (max-width: 1300px) {
+  .desk {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .desk1 {
+    display: none !important;
+  }
+  .wrapper {
+    padding: 0 15px;
+  }
+  /* body {
+    margin: 0 15px;
+  } */
+
+  .title {
+    font-size: 26px;
+    width: 49%;
+  }
+  .subtitle {
+    margin-bottom: 86px;
+  }
+  .button {
+    width: 100%;
+  }
+}
+
+/* .btn {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.btn-orange {
+  background-color: var(--accent);
+  color: var(--text-dark);
+  padding: 15px 34px;
+} */
